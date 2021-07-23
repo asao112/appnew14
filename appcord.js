@@ -16,9 +16,9 @@ btn.addEventListener('click', () => {
         } else {
          cord = '';
         }
-        const li = document.createElement('li');
-        output.appendChild(li);
-        li.textContent = cord;      
+        const task = document.createElement('li');
+        output.appendChild(task);
+        task.textContent = cord;      
       }
       if (!fizz || !buzz) {
         output.innerHTML = '';
